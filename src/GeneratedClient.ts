@@ -2,4 +2,12 @@
 
 import { DefaultService } from "../Generatedclients/generated";
 
-const res = await DefaultService.getUser("12");
+
+async function main() {
+
+    const res = await DefaultService.getUser("12");
+    console.log(res);
+    
+}
+
+main();
